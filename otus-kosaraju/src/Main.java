@@ -29,7 +29,7 @@ public class Main {
         }
         System.out.println("\nКомпоненты сильной связности : ");
 
-        // Печать сильно
+        // Печать компонентов сильной связности
         List<List<Integer>> scComponents = k.getSCComponents(g);
         System.out.println(scComponents);
     }
